@@ -1,0 +1,22 @@
+GRASP
+
+Creator
+ - Tree (Node)
+ - Checkers (Checker)
+ - Board (Checkers)
+ - Main (Board)
+ - Runs (Run)
+
+Information Expert
+ - Board (Checkers)
+ - Cell (Checker)
+
+Low Coupling
+ - Board (Checker)
+
+Controller
+ - Main
+
+High Cohesion
+ - Board (Checkers, Checker, Tree)
+ - Run(Checker)
